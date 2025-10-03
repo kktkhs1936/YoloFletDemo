@@ -1,5 +1,24 @@
 # Yolofletdemo app
 
+## Getting Started
+
+1. Pythonの仮想環境を作成
+```
+python -m venv .venv
+```
+
+2. 仮想環境を有効化
+
+### Windows
+```
+.venv\Scripts\activate
+```
+
+### Mac
+```
+source .venv/bin/activate
+```
+
 ## Run the app
 
 ### uv
