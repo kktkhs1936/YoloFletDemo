@@ -2,21 +2,40 @@
 
 ## Getting Started
 
-1. Pythonの仮想環境を作成
+### 1. Pythonの仮想環境を作成
 ```
 python -m venv .venv
 ```
 
-2. 仮想環境を有効化
+### 2. 仮想環境を有効化
 
-### Windows
+#### Windows
 ```
 .venv\Scripts\activate
 ```
 
-### Mac
+#### macOS
 ```
 source .venv/bin/activate
+```
+
+### 3. パッケージをインストール
+```
+pip install -r requirements.txt
+```
+
+### 4. fletアプリを立ち上げ
+
+#### Windows
+
+```
+flet build windows -v
+```
+
+#### macOS
+
+```
+flet build macos -v
 ```
 
 ## Run the app
