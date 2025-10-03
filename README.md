@@ -1,6 +1,6 @@
 # YoloFletDemo
 物体検出をGUIで行えるPython製アプリ
-
+<br>
 
 ## Getting Started
 
@@ -40,11 +40,11 @@ flet run
 
 
 ## 使用パッケージ
-#### [ultralytics](https://github.com/ultralytics/ultralytics?tab=readme-ov-file)
+### [ultralytics](https://github.com/ultralytics/ultralytics?tab=readme-ov-file)
 YOLO11という物体検出AIを簡単に使えるパッケージ<br>
 これで学習もできるっぽい<br>
 
-#### [flet](https://flet.dev/)
+### [flet](https://flet.dev/)
 flutterのpython版？<br>
 やろうとすればMac用やモバイル用のアプリにもできるらしい<br>
 
